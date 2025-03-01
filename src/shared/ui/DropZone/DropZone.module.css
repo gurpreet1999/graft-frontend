@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  padding: 0.25rem 0.5rem 0.25rem 0.25rem;
+  background-color: var(--grey-600);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.image__container {
+  width: 2.875rem;
+  height: 2.75rem;
+  background-color: var(--primary-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
+}
+
+.container span {
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+}
+
+.kebab {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.kebab__button {
+  width: 1.5rem;
+  height: 1.5rem;
+  z-index: 10;
+}
+
+.kebab__menu {
+  display: none;
+}
+
+.kebab__menu.open {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  background-color: var(--primary-dark);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  z-index: 10;
+  flex-direction: column;
+}
+
+.button {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  color: var(--primary-text-color);
+  gap: .625rem;
+  align-items: center;
+  border-radius: .25rem;
+}
+
+.button:hover {
+  background-color: var(--grey-450);
+}

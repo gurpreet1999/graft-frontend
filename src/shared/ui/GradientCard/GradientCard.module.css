@@ -1,0 +1,15 @@
+[data-theme="light"] .gradientCard {
+  background: conic-gradient(
+    from 48deg at -1.15% 95.14%,
+    #fff 0deg,
+    #fafcfd 360deg
+  );
+}
+
+[data-theme="dark"] .gradientCard {
+  background: conic-gradient(
+    from 48deg at -1.15% 95.14%,
+    #1e2c3e 0deg,
+    #213246 360deg
+  );
+}

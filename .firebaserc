@@ -1,0 +1,22 @@
+{
+  "projects": {
+    "default": "graft-production"
+  },
+  "targets": {
+    "graft-staging": {
+      "hosting": {
+        "graft-v2": [
+          "v2-graft-staging"
+        ]
+      }
+    },
+    "graft-production": {
+      "hosting": {
+        "graft-v2": [
+          "v2-graft-production"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  height: 100%;
+  width: 100%;
+  gap: 2rem;
+}
+
+.content__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1 1 50%;
+}
+
+.shortlisted {
+  flex: 1 1 50%;
+}
+
+@media screen and (max-width: 90rem) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .content__wrapper {
+    flex: 1 1 100%;
+    height: fit-content;
+  }
+
+  .shortlisted {
+    flex: 1 1 100%;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .wrapper {
+    gap: 1rem;
+  }
+
+  .content__wrapper {
+    gap: 1rem;
+  }
+}

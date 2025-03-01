@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.sectors {
+  max-width: 26.125rem;
+  width: 100%;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.selects {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: row;
+}
+
+.campaigns__list {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 798px) {
+  .settings {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .tabs {
+    width: 100%;
+  }
+
+  .button {
+    width: 50%;
+    text-align: center;
+  }
+
+  .selects {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+}

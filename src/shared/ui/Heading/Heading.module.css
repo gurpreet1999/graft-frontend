@@ -1,0 +1,47 @@
+.heading_h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}
+
+.heading_h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}
+
+.heading_h3 {
+  font-size: 1.250rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}
+
+.heading_h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.55;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}
+
+.heading_h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}
+
+.heading_h6 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-main-color);
+  font-family: "Inter";
+}

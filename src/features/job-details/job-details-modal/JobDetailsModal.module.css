@@ -1,0 +1,136 @@
+.container {
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: "Inter";
+}
+
+.button {
+  min-width: 9.6875rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.0625rem;
+  background-color: var(--grey-400);
+}
+
+.scrollArea {
+  height: 100%;
+}
+
+.job__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.job__title {
+  font-weight: 500;
+}
+
+.job__sub {
+  font-weight: 400;
+  color: var(--grey-300);
+  font-size: 1rem;
+}
+
+.job__location {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  height: 100%;
+}
+
+.job__role {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--primary-text-color);
+}
+
+.location span {
+  width: fit-content;
+  text-align: right;
+  max-width: 15.625rem;
+}
+
+.rate {
+  color: var(--primary-text-color);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: -0.0112rem;
+}
+
+.job__info_title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  line-height: 1.55;
+  letter-spacing: -0.0112rem;
+}
+
+.job__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.job__info_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.job__info_item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  color: var(--grey-300);
+}
+
+.job__contact_item {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: var(--primary-text-color);
+  font-weight: 400;
+}
+
+.job__contact_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.button {
+  width: 100%;
+}
+
+.button__unapply {
+  color: var(--dark-red);
+  width: 100%;
+}

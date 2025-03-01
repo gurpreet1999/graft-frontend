@@ -1,0 +1,40 @@
+.chip {
+  width: fit-content;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.9375rem;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.0075rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.4375rem;
+}
+
+.active {
+  border: 0.0625rem solid #20a62e;
+  color: #20a62e;
+}
+
+.pending {
+  min-width: 9.5rem;
+}
+
+.pending.fit {
+  min-width: 0px;
+  width: fit-content;
+}
+
+.notVerified,
+.pending {
+  border: 0.0625rem solid #717d8c;
+  color: #717d8c;
+  text-align: center;
+}
+
+.inactive {
+  border: 0.0625rem solid #ff4d4f;
+  color: #ff4d4f;
+}

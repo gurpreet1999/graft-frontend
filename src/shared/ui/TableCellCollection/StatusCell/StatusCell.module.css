@@ -1,0 +1,37 @@
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.published {
+  color: #20A62E;
+  border: 0.0625rem solid #20A62E;
+}
+
+.nonVerified {
+  color: var(--grey-300);
+  border: 0.0625rem solid var(--grey-300);
+  min-width: 6.01rem;
+  min-height: 2rem;
+}
+
+.draft {
+  color: var(--grey-300);
+  border: 0.0625rem solid var(--grey-300);
+  height: fit-content;
+  text-align: center;
+}
+
+@media screen and (min-width: 48rem) {
+  .status {
+    min-width: max-content;
+  }
+}

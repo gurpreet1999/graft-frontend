@@ -1,0 +1,88 @@
+.plan {
+  margin-top: 1rem;
+  max-width: 26.25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1rem;
+  background: var(--grey-600);
+  border-radius: 1rem;
+  height: 8.0625rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.plan__name {
+  margin-top: auto;
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.55;
+}
+
+.text__big {
+  position: relative;
+  width: fit-content;
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 1.4664rem;
+}
+
+.text__big.text__big_decor {
+  margin-left: 0.375rem;
+  padding-left: 0.375rem;
+}
+
+.text__big_decor::before {
+  content: "£";
+  display: block;
+  position: absolute;
+  font-family: Inter;
+  font-size: 0.7332rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.55;
+  top: -0.3125rem;
+  left: -0.1rem;
+}
+
+.text__big_decor::after {
+  content: "/mo";
+  display: block;
+  position: absolute;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.55;
+  bottom: 0;
+  right: -1.5rem;
+  font-size: 0.7332rem;
+}
+
+.submitButton {
+  margin: 3rem 0;
+}
+
+.terms {
+  color: var(--grey-100);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+  letter-spacing: -0.14px;
+  max-width: 24.75rem;
+  margin: 0 auto;
+}

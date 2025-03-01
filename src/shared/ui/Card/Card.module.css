@@ -1,0 +1,8 @@
+.container{
+  height: 100%;
+  width: 100%;
+  background-color: var(--primary-color);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  border: 0.0625rem solid var(--grey-800);
+}

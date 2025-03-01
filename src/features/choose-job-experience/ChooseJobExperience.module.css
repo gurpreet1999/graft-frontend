@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+}
+
+.sector {
+  background-color: var(--grey-600);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.scroll {
+  overflow-y: auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  .search__button {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 41.9375rem) {
+  .card {
+    max-width: 100%;
+    background-color: var(--grey-900);
+  }
+
+  .container {
+    gap: 1rem;
+  }
+}

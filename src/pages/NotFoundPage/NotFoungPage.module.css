@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.bg {
+  flex: 1 1 60%;
+  width: 100%;
+  height: 100%;
+}
+
+.bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text__container {
+  flex: 1 1 auto;
+  padding: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.text {
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+  color: var(--grey-100);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button{
+  max-width: 18.75rem;
+}
+
+.toggler{
+  position: absolute;
+  left: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 100;
+  width: 13.125rem;
+}
+
+@media screen and (max-width: 56rem) {
+  .text__container{
+    padding: 1.125rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .text__container{
+    flex: 1 1 100%;
+  }
+  .bg{
+    display: none;
+  }
+}

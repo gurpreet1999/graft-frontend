@@ -1,0 +1,39 @@
+.container{
+  width: 2.5rem;
+  height: 1.375rem;
+  border-radius: 0.9375rem;
+  transition-duration: .2s;
+  position: relative;
+}
+.input{
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+}
+.container::after{
+  content: "";
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0.1875rem;
+  transform: translateY(-50%);
+  transition: left 0.2s ease-in-out;
+  pointer-events: none;
+}
+.container.checked{
+  background-color: var(--main-blue);
+}
+.container.unchecked {
+  background-color: var(--grey-300);
+}
+.container.checked::after{
+  left: calc(100% - 1.3125rem);
+}
+

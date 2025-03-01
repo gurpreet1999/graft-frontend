@@ -1,0 +1,47 @@
+.baseButton {
+  padding: 0.875rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 0.75rem;
+  font-family: Inter;
+  font-size: 1rem;
+}
+
+.baseButton:hover {
+  opacity: .9;
+}
+
+.button {
+  width: 100%;
+  background: var(--main-blue);
+  font-weight: 500;
+  color: var(--button-color);
+  line-height: 1.22;
+  font-size: 1.125rem;
+}
+
+.primaryButton {
+  background-color: var(--primary-dark);
+  color: var(--main-blue);
+}
+
+.primaryButtonBlue {
+  background: var(--main-blue);
+  color: var(--button-color);
+}
+
+.buttonRed {
+  background: var(--secondaty-color-brown);
+  color: var(--dark-red);
+}
+
+@media screen and (max-width: 48rem) {
+  .smallOnMobile.baseButton {
+    padding: 0.5rem 0.75rem;
+    font-size: .875rem;
+  }
+}

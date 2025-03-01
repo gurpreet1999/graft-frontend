@@ -1,0 +1,14 @@
+.radix-themes{
+  --accent-10: var(--DarkThemePrimary_500);
+  --gray-10: var(--DarkThemeGrey_400);
+  --gray-11: var(--DarkThemeGrey_700);
+  --gray-12: var(--DarkThemeGrey_800);
+  --gray-13: var(--DarkThemeGrey_900);
+  --gray-14: var(--greyDarkGrey);
+  --blue-10: var(--primaryBrightBlue);
+  --blue-11: var(--primaryDeepBlue);
+  --blue-12: var(--blueLightBlue);
+  --green-10: var(--DarkThemeGreen);
+  --white: var(--DarkThemeWhite);
+  --black: var(--primaryBlack);
+}

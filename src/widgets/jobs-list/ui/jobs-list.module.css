@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  height: fit-content;
+}
+
+.tab__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab__container {
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 0.875rem 1rem;
+  font-size: 14px;
+  height: 3rem;
+}
+
+.table > div:first-child {
+  height: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    background-color: none;
+    border: none;
+    padding: 0 0 1.5rem 0;
+    position: relative;
+    gap: 0.5rem;
+    height: 100%;
+  }
+  .tab {
+    width: 100%;
+  }
+  .tabs__container {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+  }
+  .header {
+    position: absolute;
+  }
+  .table > div:first-child {
+    padding-top: 4rem;
+    height: 100%;
+  }
+  .result {
+    top: 40px;
+  }
+
+  .dropdown {
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 60.5625rem) {
+  .table {
+    padding-top: 3rem;
+  }
+}

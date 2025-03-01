@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.header__button {
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: row;
+}
+
+.button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.campaign {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.campaign__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.campaign__info p {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.75;
+  letter-spacing: -0.0088rem;
+  color: var(--primary-text-color);
+}
+
+.link {
+  font-size: 0.875rem;
+  height: 1.25rem;
+  font-weight: 500;
+}
+
+.details > p,
+.title {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: -0.0088rem;
+  color: var(--primary-text-color);
+}
+
+.details__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.details {
+  flex: 1 1 50%;
+}
+
+.details__item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.details__title {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.42;
+  letter-spacing: -0.0088rem;
+  color: var(--grey-300);
+}
+
+.details__value {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.42;
+  letter-spacing: -0.0088rem;
+  color: var(--grey-100);
+  text-align: right;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.skills {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.42;
+  letter-spacing: -0.0088rem;
+  color: var(--grey-300);
+}
+
+.footer__button {
+  display: none;
+}
+
+.footer__link {
+  display: none;
+}
+
+.button__publish img{
+  filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(271%)
+    hue-rotate(216deg) brightness(121%) contrast(100%);
+  }
+
+@media screen and (max-width: 48rem) {
+  .details__wrapper {
+    flex-direction: column;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .header__link {
+    display: none;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .footer__link {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__button {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

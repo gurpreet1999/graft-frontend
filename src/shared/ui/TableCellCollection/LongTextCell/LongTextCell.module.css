@@ -1,0 +1,18 @@
+.container {
+  max-width: 14.375rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container.small {
+  max-width: 9.375rem;
+}
+
+.container.medium {
+  max-width: 14.375rem;
+}
+
+.container.large {
+  max-width: 31.25rem;
+}

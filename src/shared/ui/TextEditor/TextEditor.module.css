@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 0.75rem;
+}
+
+.label__container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 0.25rem;
+}
+
+.label__container img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.label {
+  display: block;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+  color: var(--grey-300);
+}
+
+.editor__container {
+  padding: 0.625rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--grey-400);
+  height: 16.625rem;
+  width: 100%;
+  overflow: auto;
+  max-width: 26.1875rem;
+}
+
+.editor__container.error {
+  border: 1px solid var(--dark-red);
+}
+
+.error__message {
+  font-family: "Inter";
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+  color: var(--dark-red);
+}
+
+.editor__buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.editor__button {
+  padding: 0.375rem;
+  border-radius: 4px;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.editor__button img {
+  filter: brightness(0) saturate(100%) invert(47%) sepia(6%) saturate(915%)
+    hue-rotate(173deg) brightness(102%) contrast(89%);
+}
+
+.editor__button.active {
+  background: var(--primary-dark);
+}
+
+.editor {
+  color: var(--primary-text-color);
+}
+
+.editor__button img {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(15%) saturate(7500%)
+    hue-rotate(176deg) brightness(103%) contrast(101%);
+}

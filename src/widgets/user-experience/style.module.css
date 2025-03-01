@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+.info__item {
+  display: flex;
+  flex-direction: column;
+  gap: .125rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+  width: 100%;
+}
+
+.info__label {
+  color: var(--grey-300);
+}
+
+.info__value {
+  color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 48rem) {
+  .wrapper {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}

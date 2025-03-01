@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.header__text {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+  letter-spacing: -0.0088rem;
+  color: var(--grey-300);
+}
+
+.onboarding {
+  position: absolute;
+  height: 50%;
+  width: 50vw;
+  top: 10%;
+  left: 1.25rem;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 0.5rem;
+    padding: 0 1.5rem;
+  }
+
+  .onboarding {
+    width: 100vw;
+    height: 30%;
+    top: 5%;
+    left: 0;
+  }
+}

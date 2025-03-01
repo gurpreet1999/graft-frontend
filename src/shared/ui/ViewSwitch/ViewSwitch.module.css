@@ -1,0 +1,29 @@
+.container {
+  width: 5rem;
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.switch {
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: var(--grey-600);
+}
+
+.switch.active {
+  background-color: var(--primary-dark);
+}
+
+[data-theme="dark"] .switch.active img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(13%) saturate(7497%)
+    hue-rotate(180deg) brightness(100%) contrast(119%);
+}
+
+[data-theme="light"] .switch.active img {
+  filter: brightness(0) saturate(100%) invert(19%) sepia(94%) saturate(341%)
+    hue-rotate(165deg) brightness(96%) contrast(96%);
+}

@@ -1,0 +1,7 @@
+.button {
+  border-radius: .5rem;
+  background: var(--primary-dark);
+  padding: .5rem;
+  width: 2.25rem;
+  height: 2.25rem;
+}

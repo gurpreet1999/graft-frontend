@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  min-height: 50%;
+  flex: 1 1 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: row;
+  padding: 0 1.5rem;
+}
+
+.header__button {
+  display: flex;
+  gap: 0.75rem;
+  flex-direction: row;
+}
+
+.button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+@media screen and (max-width: 90rem) {
+  .container {
+    min-height: 31.25rem;
+  }
+}
+
+@media screen and (max-width: 56.6875rem) {
+  .table {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .header {
+    padding: 0;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+}

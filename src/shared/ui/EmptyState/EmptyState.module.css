@@ -1,0 +1,34 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 1.5rem;
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: -0.0112rem;
+  text-align: center;
+  color: var(--primary-text-color);
+  min-height: 300px;
+  padding-top: 70px;
+}
+
+.button__container {
+  width: 100%;
+  max-width: 29.875rem;
+  padding: 1rem;
+}
+
+.emptyState > p {
+  max-width: 28.125rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .emptyState {
+    font-size: 1rem;
+  }
+}

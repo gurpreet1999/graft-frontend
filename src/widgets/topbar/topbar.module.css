@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  box-shadow: 0rem 0.0625rem 0.125rem 0rem rgba(0, 0, 0, 0.05);
+  background-color: var(--grey-950);
+  border-bottom: 0.0625rem solid var(--grey-800);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 5.5rem;
+  gap: 1rem;
+}
+
+.search__container {
+  width: 100%;
+  max-width: 18.25rem;
+  position: relative;
+}
+
+.user__container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+.notification__container {
+  padding: 0.25rem 0;
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    padding: 0.75rem 1.5rem;
+    height: 3.5rem;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  .search__container {
+    max-width: 10rem;
+  }
+}

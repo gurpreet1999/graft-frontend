@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container {
+  padding-bottom: 1.5rem;
+}
+
+.graph {
+  width: 100%;
+}
+
+.graph::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.graph::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.graph::-webkit-scrollbar-thumb {
+  background: #202c46;
+  width: 0.125rem;
+}
+
+.graph::-webkit-scrollbar-thumb:hover {
+  background: #202c46;
+  width: 0.125rem;
+}
+
+.graph {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #202c46 transparent;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.header__date {
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.16px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.carrets {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+.carret {
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0.75rem;
+  background-color: var(--grey-600);
+  border-radius: 0.5rem;
+}
+
+[data-theme="light"] .carret img {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(11%) saturate(3060%)
+    hue-rotate(169deg) brightness(94%) contrast(90%);
+}
+
+.carret.right img {
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .header__date {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

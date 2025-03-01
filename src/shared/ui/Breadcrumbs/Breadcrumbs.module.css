@@ -1,0 +1,43 @@
+.breadcrumbs__text {
+  text-transform: capitalize;
+  line-height: 1.4;
+  color: var(--grey-300);
+  font-family: "Inter";
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.breadcrumbs__active .breadcrumbs__text {
+  color: var(--primary-text-color);
+}
+
+.breadcrumbs__active {
+  pointer-events: none;
+}
+
+.breadcrumbs__slash {
+  margin: 0 0.5rem;
+  color: var(--grey-300);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: fit-content;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+[data-theme="dark"] .breadcrumbs__icon {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(7%) saturate(815%)
+    hue-rotate(173deg) brightness(98%) contrast(92%);
+}
+
+.breadcrumbs__icon {
+  margin: 0 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}

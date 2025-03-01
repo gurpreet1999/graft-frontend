@@ -1,0 +1,29 @@
+.container {
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.step {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--primary-dark);
+  color: var(--main-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container span {
+  background: var(--primary-dark);
+  width: 2.1875rem;
+  height: 0.125rem;
+}
+
+.active {
+  background: var(--main-blue);
+  color: #fff;
+}

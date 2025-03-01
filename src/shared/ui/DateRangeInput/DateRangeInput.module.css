@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.label__container {
+  display: flex;
+  align-items: center;
+  padding-bottom: .25rem;
+}
+
+.label__container img {
+  margin-right: 8px;
+}
+
+.label {
+  display: block;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.01rem;
+  color: var(--grey-300);
+}
+
+.datepicker__container {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.datepicker {
+  position: relative;
+  width: 100%;
+}
+
+.datepicker input {
+  width: 100%;
+  height: 3.125rem;
+  padding: 0.75rem 1rem;
+  height: 3.1544rem;
+  border-radius: 0.5rem;
+  border: 0.0625rem solid var(--grey-300);
+  color: var(--grey-100);
+  font-size: 14px;
+}
+
+.datepicker > div {
+  width: 100%;
+}
+.datepicker input::placeholder {
+  color: var(--grey-200);
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.datepicker img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}

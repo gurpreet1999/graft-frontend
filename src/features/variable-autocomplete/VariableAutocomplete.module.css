@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.label {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--grey-300);
+}
+
+.value {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
+
+.input {
+  padding: 0.75rem 1rem;
+}
+
+.input input {
+  font-size: 1rem;
+}
+
+.input input::placeholder {
+  font-size: 1rem;
+}

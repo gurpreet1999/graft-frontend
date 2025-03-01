@@ -1,0 +1,110 @@
+.firstStep {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 20.25rem;
+  padding: 0.5rem;
+  background-color: var(--grey-transparent);
+  margin: 0 !important;
+  border-radius: 0.25rem;
+  outline: 5000px solid rgba(0, 0, 0, 0.5);
+}
+
+.secondStep,
+.thirdStep {
+  background-color: var(--grey-transparent);
+  border-radius: 0.25rem;
+  position: absolute;
+  max-width: 19.875rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 500px) {
+  .thirdStep {
+    top: 15.625rem !important;
+  }
+}
+
+.step__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.heading {
+  color: var(--main-blue);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.24px;
+}
+
+.text {
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.12px;
+}
+
+.highlight,
+.jobs__highlight,
+.apply__highlight {
+  border: 0.125rem solid #d9d9d9;
+  position: absolute;
+  border-radius: .25rem;
+}
+
+.jobs__highlight {
+  max-width: 569px;
+  min-height: 250px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list__heading {
+  padding-left: 1rem;
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.42;
+  letter-spacing: -0.14px;
+  position: relative;
+}
+
+.list__heading::before {
+  content: "";
+  position: absolute;
+  left: 0.375rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background-color: var(--primary-text-color);
+}
+
+.list span {
+  padding-top: 0.5rem;
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.12px;
+}

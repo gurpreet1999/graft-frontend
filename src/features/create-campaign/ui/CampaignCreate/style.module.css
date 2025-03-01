@@ -1,0 +1,41 @@
+.modal__title {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.input * {
+  font-size: 1rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+}
+
+.cost {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: -0.015rem;
+}
+
+.cost span:first-child {
+  color: var(--grey-300);
+}
+
+.cost span:last-child {
+  color: var(--primary-text-color);
+}

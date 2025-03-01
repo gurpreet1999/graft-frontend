@@ -1,0 +1,17 @@
+.text{
+  color: var(--primary-text-color);
+  font-family: Inter;
+  font-size: 4.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.045rem;
+}
+
+@media screen and (max-width: 48rem) {
+  .text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.33;
+  }
+}

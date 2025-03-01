@@ -1,0 +1,15 @@
+.link {
+  color: var(--main-blue);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s;
+  font-family: "Inter";
+  border-bottom: 0.0625rem solid var(--main-blue);
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.link:hover{
+  color: #10a7ff;
+  border-bottom: 0.0625rem solid #10a7ff;
+}

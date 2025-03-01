@@ -1,0 +1,57 @@
+.container {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 1rem;
+  min-height: 100%;
+  height: fit-content;
+}
+
+.header {
+  padding: 0 1.5rem;
+}
+
+.action__buttons {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 48rem) {
+  .action__buttons {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .container {
+    padding: 1.5rem;
+  }
+
+  .header {
+    padding: 0 0 1.5rem 0;
+  }
+
+  .table {
+    padding: 0;
+  }
+
+  .result__container {
+    top: -9.75rem;
+    height: 1.5rem;
+  }
+
+  .result__container._hired {
+    top: -5rem;
+  }
+
+  .dropdown {
+    top: -12.25rem;
+  }
+
+  .dropdown._hired {
+    top: -8.5rem;
+  }
+}

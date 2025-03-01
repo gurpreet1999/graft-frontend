@@ -1,0 +1,81 @@
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  margin-bottom: -8px;
+  padding: 0 .625rem;
+}
+
+.subheader {
+  color: var(--grey-100);
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: -0.0088rem;
+}
+
+.checkbox__inner {
+  font-size: 1.125rem;
+  padding: 0 .625rem;
+}
+
+.checkbox__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.link {
+  font-size: 1.125rem;
+}
+
+.button {
+  margin-top: auto;
+  padding-right: .625rem;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  max-height: 15.625rem;
+  padding-right: .625rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    width: 100%;
+  }
+  .inputs {
+    gap: 0.75rem;
+  }
+  .scroll {
+    max-height: 13.4375rem;
+  }
+}
+
+@media screen and (max-width: 29.25rem) {
+  .container {
+    width: 100%;
+  }
+}
+
