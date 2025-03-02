@@ -4,10 +4,7 @@ import { SnackBar } from "shared/ui";
 
 // const BASE_URL = import.meta.env.VITE_API_URL + "/api/v2";
 
-const BASE_URL =
-  // "https://broadband-weather-used-moved.trycloudflare.com/api/v2/";
-  "http://localhost:8000/api/v2/";
-// "https://reception-favour-processing-follows.trycloudflare.com/api/v2/";
+const BASE_URL ="https://api.onthegraft.com/api/v2"
 const axiosInstance: AxiosInstance = axios.create({
   baseURL: BASE_URL,
   withCredentials: true,
